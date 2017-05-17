@@ -5,6 +5,7 @@ public class Clinica {
     private String Medico;
     private ArrayList<Ambulatorial> ambulatorios;
     
+    // Padrão Creator, gera uma instância de Ambulatório
     public Clinica(String Medico, Ambulatorial ambulatorio){
         this.Medico = Medico;
         ambulatorios = new ArrayList<>();
